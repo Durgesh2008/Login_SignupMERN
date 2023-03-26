@@ -1,0 +1,9 @@
+.video_cnt{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    padding: 6em;
+    gap: 2em;
+    margin-left: 2em;
+}

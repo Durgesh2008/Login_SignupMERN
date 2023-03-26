@@ -1,0 +1,105 @@
+.threadA{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    height: 5vh;
+    background: rgba(254, 255, 192, 0.2);
+    border: 0.1px solid rgba(0, 0, 0, 0.4);
+    /* border: 1px solid red; */
+}
+.threadA h5{
+    padding-left: 4em;
+}
+.subthread{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+.sub-thread01,.sub-interpretation01,.sub-summary{
+    width: 48%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.05);
+opacity: 0.5;
+border: 0.1px solid #333333;
+box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    opacity: 0.6;
+    border: 0.1px solid #333333;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: start;
+    padding-left: .5em;
+    /* border: none; */
+}
+.sub-text{
+    text-align: start;
+    padding-left: .5em;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color:black;
+margin:.5em 0em .5em 0em ;
+}
+.sec-2-icon{
+    height: 5vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 2em;
+}
+.sec-2-row-icon{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sec-2-icon select{
+    display: flex;
+    border: 1px solid;
+    margin-left:.5em ;
+    background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.sec-2-icon i{
+    font-size: 1.2em;
+    margin: .5em;
+}
+.subthread-btn{
+    width: 25%;
+    padding: .6em;
+    background: #0029FF;
+    border-radius: 10px;
+    border: none;
+    margin: 2.5em;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 14px;
+color: #FFFFFF;
+
+    
+}
+.sub-summary{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 2.5em;
+background: #FAFAFA;
+border-radius: 10px;
+}
+.sub-summary,.text{
+    height: 17vh;
+}
