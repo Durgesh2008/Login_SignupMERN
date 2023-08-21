@@ -201,10 +201,9 @@ try { <br />
    
     return res.status(200).json({message:"login successfully",success:true}) <br />
 } catch (error) { <br />
-  return res.status(500).json({message:error,success:false}) <br />
+  return res.status(500).json({message:error,success:false})
 } <br />
 }) <br />
 
 module.exports = router; <br />
-
 T
