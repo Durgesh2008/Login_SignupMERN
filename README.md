@@ -1,8 +1,8 @@
-# SIgn up and login Using Mearn stack
-# Backend setup with Node.js, Express, JWT tokens, bcrypt.js, express-validator, Mongoose, and MongoDB. 
-Node.Js: server side Language 
-Express.Js:Tools make it easy to build fast, scalable APIs that can handle a wide range of requests and workloads.
-JWT Token:For successful authentication, a JWT token is generated and returned, which can be consumed by the app to create a user session.
+# SIgn up and login Using Mearn stack  <br />
+# Backend setup with Node.js, Express, JWT tokens, bcrypt.js, express-validator, Mongoose, and MongoDB.  <br />
+Node.Js: server side Language <br />
+Express.Js:Tools make it easy to build fast, scalable APIs that can handle a wide range of requests and workloads.<br />
+JWT Token:For successful authentication, a JWT token is generated and returned, which can be consumed by the app to create a user session. <br />
 express-validator:Express middleware used for validate user input
 bcrypt.js: For encrypt the password
 mongoose:Mongoose module provides several functions in order to manipulate the documents of the collection of the MongoDB database.
